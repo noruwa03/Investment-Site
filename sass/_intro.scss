@@ -1,0 +1,57 @@
+.intro {
+  padding: 5rem 0rem;
+  width: 89%;
+  margin: 0rem auto;
+
+  .col {
+    .row {
+      @include flexItem(row, space-between);
+      .container {
+        width: 48%;
+        height: 20rem;
+        padding: 1rem;
+   
+
+        h1 {
+          font-size: 2em;
+          span {
+            font-weight: normal;
+            font-size: 1.5em;
+          }
+        }
+
+        .lead {
+          margin: 1.5rem 0rem;
+          font-size: 1.045em;
+          font-weight: lighter;
+          color: $gray2;
+          margin-bottom: 2.5rem;
+        }
+
+        a {
+          padding: 0.6rem 1rem;
+          background: $blue;
+          color: $white;
+          font-weight: bold;
+          letter-spacing: 0.08rem;
+          border-radius: 0.2rem;
+          box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+          transition: all 0.3s ease;
+          font-size: 1.1em;
+        }
+
+        &:last-child {
+          width: 50%;
+          height: 50%;
+          border-radius: 0.2rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.3rem;
+         
+          }
+        }
+      }
+    }
+  }
+}

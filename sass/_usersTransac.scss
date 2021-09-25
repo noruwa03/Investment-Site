@@ -1,0 +1,29 @@
+#assetsBg {
+    margin-top: 2rem;
+  .row {
+    background: $primary;
+    padding: 4rem 0rem;
+    @include flexItem(row, space-around);
+    .col {
+      @include flexItem(column, center);
+
+      img {
+        width: 3rem;
+        filter: invert(1);
+      }
+
+      h3 {
+          color: $white;
+          margin-top: 0.5rem;
+      }
+
+      p {
+        font-size: 1.9em;
+        color: $white;
+      }
+    }
+  }
+
+
+ 
+}

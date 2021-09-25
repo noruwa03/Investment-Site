@@ -1,0 +1,61 @@
+#higherReturnsBg {
+  background: $black;
+  .higherReturns {
+    @include flexItem(row, space-between);
+    padding: 4.7rem 0rem;
+    width: 86%;
+    margin: 0rem auto;
+    .container {
+      width: 47%;
+
+      h1 {
+        font-size: 2.6em;
+        color: $white;
+      }
+
+      .lead {
+        margin-top: 2rem;
+        line-height: 1.6rem;
+        font-size: 1.03em;
+        color: $white;
+      }
+
+      .items {
+        @include flexItem(row, space-between);
+        width: 100%;
+        .container {
+          width: 31%;
+          background: #1b1b1b;
+          padding: 1.4rem 0.9rem;
+          border-radius: 0.7rem;
+          margin-top: 1.3rem;
+
+          .col {
+            @include flexItem(column, center);
+            width: 100%;
+     
+
+            img {
+              width: 2.5rem;
+              filter: invert(1);
+            }
+
+            h2 {
+              font-size: 1.2em;
+              margin-top: 1.3rem;
+              color: $white;
+              font-weight: lighter;
+            }
+          }
+        }
+      }
+
+      &:last-child {
+        img {
+          width: 100%;
+
+        }
+      }
+    }
+  }
+}

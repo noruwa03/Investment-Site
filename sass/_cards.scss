@@ -1,0 +1,63 @@
+.investmentPlan {
+  background: $gray1;
+  .items {
+    width: 80%;
+    margin: 2rem auto;
+    @include flexItem(row, space-between);
+    background: $gray1;
+
+    .container {
+      cursor: pointer;
+      padding: 2.7rem 0rem;
+      width: 20rem;
+
+      box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+      @include flexItem(column, center);
+      align-items: flex-start;
+      border-radius: 0.6rem;
+      margin: 1rem 0rem;
+      background: $white;
+
+      p,
+      h3,
+      .icon-text {
+        margin-left: 1.3rem;
+      }
+
+      p {
+        color: #999;
+      }
+
+      h3 {
+        font-size: 1.7em;
+        margin-top: 0.6rem;
+      }
+
+      .icon-text {
+        margin-top: 0.8rem;
+        @include flexItem(row, space-between);
+        img {
+          width: 1rem;
+        }
+        p {
+          margin-left: 0.8rem;
+          font-size: 0.92em;
+          color: #000;
+        }
+      }
+
+      .plan {
+        width: 85%;
+
+        margin: 2.4rem auto 0rem auto;
+
+        padding: 0.7rem 1rem;
+        background: $blue;
+        text-align: center;
+        border-radius: 0.4rem;
+        color: #fff;
+        font-size: 0.94em;
+      }
+    }
+  }
+}

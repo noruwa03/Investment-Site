@@ -1,0 +1,41 @@
+.getStartedBg {
+  
+  .getStarted {
+    width: 60%;
+    margin: 0rem auto;
+    padding: 4rem 0rem 5.5rem 0rem;
+
+
+    h1 {
+      font-size: 4em;
+      text-align: center;
+      color: $white;
+    }
+
+    .lead {
+      font-size: 1.25em;
+      margin-top: 1.55rem;
+      text-align: center;
+      line-height: 1.7rem;
+      color: $white;
+    }
+
+    .link {
+        text-align: center;
+        margin-top: 3rem;
+      a {
+        background: $blue;
+        padding: 0.7rem 2rem;
+        font-size: 1.01em;
+        color: $white;
+        font-weight: bold;
+  
+         letter-spacing: 0.08rem;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}

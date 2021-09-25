@@ -1,0 +1,55 @@
+header {
+  width: 89%;
+  margin: 0rem auto;
+  padding: 3rem 0rem;
+  @include flexItem(row, space-between);
+
+  .site-name {
+    cursor: pointer;
+    a {
+      color: $white;
+      font-size: 2em;
+      font-family: $croissantone;
+    }
+  }
+
+  nav {
+    ul {
+      @include flexItem(row, space-between);
+
+      li {
+        margin: 0rem 1rem;
+
+        a {
+          color: $white;
+          font-size: 1.06em;
+
+          &:hover {
+            color: $blue;
+          }
+        }
+
+        &:last-child {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .guest-user {
+    a {
+      background: $blue;
+      padding: 0.7rem 2rem;
+      font-size: 1.01em;
+      color: $white;
+      font-weight: bold;
+      letter-spacing: 0.04rem;
+      border-radius: 0.3rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+
+    
+    }
+  }
+}

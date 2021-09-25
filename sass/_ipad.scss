@@ -1,0 +1,358 @@
+@media screen and (max-width: 780px) {
+  .blackBg {
+    background: url("/assets/images/bg1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 57%;
+  }
+
+  .converter {
+  width: 65%;
+  margin: 4rem auto;
+}
+
+
+  .getStartedBg {
+    width: 80%;
+    margin: 0rem auto;
+    .getStarted {
+      width: 90%;
+      margin: 0rem auto;
+      padding: 2.4rem 0rem 1.5rem 0rem;
+
+      h1 {
+        font-size: 3em;
+        text-align: center;
+      }
+
+      .lead {
+        font-size: 1.13em;
+        margin-top: 1.55rem;
+        text-align: center;
+        line-height: 1.6rem;
+      }
+
+      .link {
+        text-align: center;
+        margin-top: 3rem;
+
+        a {
+          padding: 0.7rem 2rem;
+          font-size: 1.01em;
+
+          font-weight: bold;
+
+          letter-spacing: 0.08rem;
+          border-radius: 0.3rem;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+  }
+
+  .intro {
+    padding: 1rem 0rem;
+    width: 94%;
+    margin: 0rem auto;
+
+    .col {
+      .row {
+        @include flexItem(row, space-between);
+        .container {
+          width: 50%;
+          padding: 1rem;
+
+          h1 {
+            span {
+              font-weight: normal;
+            }
+          }
+
+          .lead {
+            margin: 1.5rem 0rem;
+            font-size: 1em;
+          }
+
+          a {
+            padding: 0.6rem 1rem;
+
+            border-radius: 0.2rem;
+          }
+
+          &:last-child {
+            width: 50%;
+          }
+        }
+      }
+
+      .container {
+        margin-top: 2rem;
+        width: 100%;
+
+        .row {
+          @include flexItem(column, center);
+
+          .col {
+            margin: 1rem 0rem;
+            @include flexItem(column, center);
+          }
+        }
+      }
+    }
+  }
+
+  .services {
+    width: 89%;
+    margin: 0rem auto;
+    padding: 3rem 0rem;
+
+    @include flexItem(row, space-around);
+  }
+
+  .about-devon {
+    padding: 0rem 0rem;
+
+    .row {
+      width: 89%;
+      margin: 0rem auto;
+
+      @include flexItem(row, space-between);
+
+      .container-1 {
+        width: 100%;
+        height: 20rem;
+        padding: 1rem;
+      }
+
+      .container-1 {
+        //   background: brown;
+        position: relative;
+
+        .box-start,
+        .box-end {
+          width: 10rem;
+          height: 6rem;
+          background: #efefef;
+        }
+
+        .box-start {
+          position: absolute;
+          top: 0rem;
+          left: 0rem;
+          border-radius: 0.3rem;
+          box-shadow: 0rem 0rem 0rem rgba(0, 0, 0, 0.2);
+        }
+
+        .box-center {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 70%;
+          height: 80%;
+          background: $primary;
+          border-radius: 0.3rem;
+          box-shadow: 0rem 0rem 0rem rgba(0, 0, 0, 0.2);
+        }
+
+        .box-end {
+          position: absolute;
+          bottom: 0rem;
+          right: 0rem;
+          border-radius: 0.3rem;
+          box-shadow: 0rem 0rem 0rem rgba(0, 0, 0, 0.2);
+        }
+      }
+      .container {
+        //   background: blueviolet;
+        width: 100%;
+        padding: 0.6rem;
+
+        .col {
+          @include flexItem(column, space-between);
+          align-items: flex-start;
+
+          p {
+            color: $gray2;
+            padding: 1rem 0rem;
+            font-size: 1.1em;
+          }
+
+          .row {
+            width: 100%;
+
+            margin: 0.3rem 0rem;
+            @include flexItem(row, space-between);
+            align-items: flex-start;
+
+            .con-1 {
+              @include flexItem(row, space-between);
+              width: 4%;
+
+              .dot {
+                width: 0.9rem;
+                height: 0.9rem;
+                background: $primary;
+                border-radius: 50%;
+              }
+            }
+            .con-2 {
+              width: 95%;
+
+              p {
+                padding-top: 0.2rem;
+                color: $gray2;
+                font-size: 1.06em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .items {
+    width: 100%;
+
+    .container {
+      width: 38%;
+      margin: 1rem auto;
+
+      .icon-text {
+        img {
+          width: 1rem;
+        }
+      }
+
+      .plan {
+        width: 85%;
+
+        margin: 2.4rem auto 0rem auto;
+
+        padding: 0.7rem 1rem;
+
+        text-align: center;
+        border-radius: 0.4rem;
+
+        font-size: 0.98em;
+        letter-spacing: 0.04rem;
+      }
+    }
+  }
+
+  .testimonial {
+    @include flexItem(row, space-around);
+    width: 88%;
+    margin: 4rem auto;
+    .container {
+      width: 45%;
+      @include flexItem(column, space-between);
+      box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+      padding: 1rem 1rem;
+      border-radius: 0.4rem;
+      cursor: pointer;
+      margin: 1rem 0rem;
+
+      img {
+        width: 4.9rem;
+        height: 4.9rem;
+        border-radius: 50%;
+      }
+
+      h2 {
+        margin: 0.8rem 0rem;
+        text-transform: capitalize;
+      }
+
+      .testimony {
+        margin: 0.7rem 0rem;
+        color: $gray2;
+      }
+    }
+  }
+
+  .footerBg {
+    footer {
+      width: 90%;
+      margin: 0rem auto;
+      .row {
+        @include flexItem(column, space-around);
+        align-items: flex-start;
+        margin-top: 2rem;
+
+        .container {
+          width: 90%;
+
+          .aboutSnippet {
+            font-size: 1em;
+
+            .row {
+              @include flexItem(row, flex-start);
+
+              img {
+                width: 2rem;
+                margin-right: 1rem;
+                filter: invert(1);
+              }
+            }
+
+            .lead {
+              margin-top: 1rem;
+            }
+          }
+
+          .row {
+            @include flexItem(row, space-between);
+            .item {
+              width: 42%;
+
+              margin-bottom: 1rem;
+
+              h3 {
+                margin-bottom: 0.6rem;
+              }
+
+              .email,
+              .address,
+              .phoneNo {
+                margin-bottom: 0.5rem;
+              }
+
+              .socials {
+                margin: 1.5rem 0rem;
+                @include flexItem(row, flex-start);
+
+                .bg {
+                  img {
+                    width: 1.2rem;
+                    height: 1.2rem;
+
+                    filter: invert(1);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .divider {
+        height: 0.06rem;
+        margin: 0rem;
+      }
+
+      .ft {
+        text-align: center;
+        padding-top: 1.4rem;
+      }
+    }
+  }
+
+  #text {
+    padding: 0rem 1rem;
+  }
+}

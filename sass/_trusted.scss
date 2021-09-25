@@ -1,0 +1,22 @@
+.trusted {
+  padding: 3rem 0rem;
+
+  .col {
+    @include flexItem(column, center);
+    h1 {
+        margin: 3rem;
+    }
+
+    .row {
+      @include flexItem(row, space-around);
+      width: 100%;
+      .container {
+        
+        width: 9%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
