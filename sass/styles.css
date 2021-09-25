@@ -2747,7 +2747,7 @@ table td .link a {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 77%;
+    height: 110%;
   }
   .converter {
     width: 96%;
@@ -2763,169 +2763,17 @@ table td .link a {
     margin-top: 2rem;
     font-size: 2.1em;
   }
-  .form-container {
-    padding: 2rem 0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .form-container .loginForm {
-    width: 95%;
-    margin: 0rem auto;
-    -webkit-box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
-            box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
-    padding: 2.5rem 0.7rem;
-    border-radius: 0.1rem;
-  }
-  .form-container .loginForm.active {
-    display: none;
-  }
-  .form-container .loginForm h5 {
-    text-transform: uppercase;
-    font-size: 0.9em;
-  }
-  .form-container .loginForm .lead {
-    font-size: 0.99em;
-    margin-bottom: 1.86rem;
-  }
-  .form-container .loginForm .inp-con {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    width: 100%;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    margin: 1rem 0rem;
-  }
-  .form-container .loginForm .inp-con label {
-    font-size: 1em;
-  }
-  .form-container .loginForm .inp-con input {
-    width: 100%;
-    height: 2rem;
-    margin: 0.5rem 0rem;
-    padding: 1.1rem 0.7rem;
-    font-size: 0.98em;
-  }
-  .form-container .loginForm .inp-con input:focus {
-    width: 100%;
-  }
-  .form-container .loginForm button {
-    padding: 0.5rem 1.8rem;
-    border: none;
-    font-size: 1em;
-    cursor: pointer;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-  }
-  .form-container .loginForm .tx {
-    text-align: center;
-    margin-top: 1.3rem;
-    cursor: pointer;
-  }
-  .form-container .registerForm {
-    width: 95%;
-    margin: 0rem auto;
-    -webkit-box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
-            box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
-    padding: 2.5rem 0.7rem;
-    border-radius: 0.1rem;
-  }
-  .form-container .registerForm.active {
-    display: block;
-  }
-  .form-container .registerForm h5 {
-    text-transform: uppercase;
-    font-size: 0.9em;
-  }
-  .form-container .registerForm .lead {
-    font-size: 0.99em;
-    margin-bottom: 1.86rem;
-  }
-  .form-container .registerForm .inp-con {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    width: 100%;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    margin: 1rem 0rem;
-  }
-  .form-container .registerForm .inp-con label {
-    font-size: 1em;
-  }
-  .form-container .registerForm .inp-con input {
-    width: 100%;
-    height: 2rem;
-    margin: 0.5rem 0rem;
-    padding: 1.1rem 0.7rem;
-    font-size: 0.98em;
-  }
-  .form-container .registerForm .inp-con input:focus {
-    width: 100%;
-  }
-  .form-container .registerForm button {
-    padding: 0.5rem 1.8rem;
-    border: none;
-    font-size: 1em;
-    cursor: pointer;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-  }
-  .form-container .registerForm .tx {
-    text-align: center;
-    margin-top: 1.3rem;
-    cursor: pointer;
-  }
   .getStartedBg .getStarted {
-    width: 90%;
+    width: 94%;
     margin: 0rem auto;
     padding: 2.4rem 0rem 1.5rem 0rem;
   }
   .getStartedBg .getStarted h1 {
-    font-size: 1.8em;
+    font-size: 2em;
     text-align: center;
   }
   .getStartedBg .getStarted .lead {
-    font-size: 1.01em;
+    font-size: 1.06em;
     margin-top: 1.55rem;
     text-align: center;
     line-height: 1.47rem;
@@ -2982,7 +2830,7 @@ table td .link a {
   .intro .col .row .container .lead {
     margin-top: 1rem;
     margin-bottom: 2rem;
-    font-size: 1.1em;
+    font-size: 1.01em;
   }
   .intro .col .row .container a {
     padding: 0.6rem 1rem;
@@ -3211,7 +3059,7 @@ table td .link a {
     width: 100%;
   }
   #higherReturnsBg .higherReturns .container .items .container {
-    width: 45%;
+    width: 90%;
     padding: 1.6rem 0.7rem;
   }
   #higherReturnsBg .higherReturns .container .items .container .col {
@@ -3759,158 +3607,6 @@ table td .link a {
   }
   .divider {
     height: 0.007rem;
-  }
-  .form-container {
-    padding: 2rem 0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .form-container .loginForm {
-    width: 70%;
-    margin: 0rem auto;
-    -webkit-box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
-            box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
-    padding: 2.5rem 1.6rem;
-    border-radius: 0.1rem;
-  }
-  .form-container .loginForm.active {
-    display: none;
-  }
-  .form-container .loginForm h5 {
-    text-transform: uppercase;
-    font-size: 0.9em;
-  }
-  .form-container .loginForm .lead {
-    font-size: 0.99em;
-    margin-bottom: 1.86rem;
-  }
-  .form-container .loginForm .inp-con {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    width: 100%;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    margin: 1rem 0rem;
-  }
-  .form-container .loginForm .inp-con label {
-    font-size: 1em;
-  }
-  .form-container .loginForm .inp-con input {
-    width: 100%;
-    height: 2rem;
-    margin: 0.5rem 0rem;
-    padding: 1.1rem 0.7rem;
-    font-size: 0.98em;
-  }
-  .form-container .loginForm .inp-con input:focus {
-    width: 100%;
-  }
-  .form-container .loginForm button {
-    padding: 0.5rem 1.8rem;
-    border: none;
-    font-size: 1em;
-    cursor: pointer;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-  }
-  .form-container .loginForm .tx {
-    text-align: center;
-    margin-top: 1.3rem;
-    cursor: pointer;
-  }
-  .form-container .registerForm {
-    width: 70%;
-    margin: 0rem auto;
-    -webkit-box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
-            box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
-    padding: 2.5rem 1.6rem;
-    border-radius: 0.1rem;
-  }
-  .form-container .registerForm.active {
-    display: block;
-  }
-  .form-container .registerForm h5 {
-    text-transform: uppercase;
-    font-size: 0.9em;
-  }
-  .form-container .registerForm .lead {
-    font-size: 0.99em;
-    margin-bottom: 1.86rem;
-  }
-  .form-container .registerForm .inp-con {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    width: 100%;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    margin: 1rem 0rem;
-  }
-  .form-container .registerForm .inp-con label {
-    font-size: 1em;
-  }
-  .form-container .registerForm .inp-con input {
-    width: 100%;
-    height: 2rem;
-    margin: 0.5rem 0rem;
-    padding: 1.1rem 0.7rem;
-    font-size: 0.98em;
-  }
-  .form-container .registerForm .inp-con input:focus {
-    width: 100%;
-  }
-  .form-container .registerForm button {
-    padding: 0.5rem 1.8rem;
-    border: none;
-    font-size: 1em;
-    cursor: pointer;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-  }
-  .form-container .registerForm .tx {
-    text-align: center;
-    margin-top: 1.3rem;
-    cursor: pointer;
   }
   .getStartedBg .getStarted {
     width: 70%;
