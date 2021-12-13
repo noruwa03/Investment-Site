@@ -1,0 +1,124 @@
+.customRow {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+
+  .col-4 {
+    width: 34%;
+
+    .capitalize {
+      text-transform: uppercase;
+      font-size: 0.76em;
+      color: #999;
+      letter-spacing: 0.07rem;
+    }
+
+    .fs-md {
+      font-size: 0.91em;
+      transform: translateY(-0.9rem);
+    }
+  }
+}
+
+.customCard {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: #fff;
+
+  .img {
+    width: 100%;
+    height: 15rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.divider {
+  width: 100%;
+  height: 0.07rem;
+  background: #dadada;
+}
+
+.divider-px-3 {
+  width: 91%;
+  height: 0.07rem;
+  background: #dadada;
+  margin: 0rem auto;
+}
+
+.priceCard {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.priceCard2 {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  border-radius: 0.3rem;
+}
+
+.priceCard3 {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.userCard {
+  box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+
+  i {
+    padding: 0.1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #dadada;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+.img-contact {
+  display: flex;
+  align-content: center;
+  justify-content: start;
+
+  .img {
+    width: 2.7rem;
+    height: 2.7rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+
+  .contact {
+    .title {
+      font-weight: bold;
+      font-size: 0.91em;
+      text-transform: capitalize;
+      span {
+        text-transform: lowercase;
+        display: block;
+        font-weight: normal;
+        color: #999;
+      }
+    }
+  }
+}
+
+.priceCard {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.priceCard2 {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  border-radius: 0.3rem;
+}
+
+.priceCard3 {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

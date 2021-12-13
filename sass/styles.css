@@ -494,58 +494,157 @@ header .guest-user a {
   border-radius: 0.3rem;
 }
 
-table {
-  width: 86%;
-  margin: 2rem auto;
-  border-collapse: collapse;
+.sub-color1 {
+  color: #29c6d5;
 }
 
-table td,
-table th {
-  padding: 0.5rem 1rem;
-  border: 0.1rem solid #ddd;
-  text-align: center;
+.sub-color2 {
+  color: #999;
 }
 
-table th {
-  background: #000;
-  color: #fff;
+#cardTable {
+  background: #f9f9f9;
+  height: 100%;
+  font-size: 0.79em;
+  padding-top: 3rem;
 }
 
-table tbody:nth-child(odd) {
-  background-color: #e5e5e5;
+#cardTable .custom-container {
+  width: 88%;
+  margin: 0.1rem auto 0rem auto;
+  -webkit-box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+  padding: 1.5rem 2rem;
+  background: #fff;
+  cursor: pointer;
 }
 
-table td .row {
+#cardTable .custom-container .text-lead {
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#cardTable .custom-container .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+#cardTable .custom-container .row .col-1 {
+  width: 15%;
+}
+
+#cardTable .custom-container .row .col-2 {
+  width: 32%;
+}
+
+#cardTable .custom-container .row .col-3 {
+  width: 20%;
+}
+
+#cardTable .custom-container .row .col-4 {
+  width: 20%;
+}
+
+#cardTable .custom-container .row .col-5 {
+  width: 10%;
+}
+
+#cardTable .custom-container .row .header {
+  color: #999;
+}
+
+#cardTable .custom-container .row .col-2 .subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
 
-table td .row img {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  margin-right: 1rem;
+#cardTable .custom-card {
+  width: 88%;
+  margin: 0.1rem auto 0rem auto;
+  -webkit-box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+  padding: 1rem 2rem;
+  background: #fff;
+  cursor: pointer;
 }
 
-table td .link a {
-  color: #000;
-  padding: 0.2rem 1rem;
-  background: none;
-  margin: 0.2rem 0.2em;
+#cardTable .custom-card:hover {
+  background: #f9f9f9;
+  -webkit-box-shadow: 0 2px 1.5px rgba(0, 0, 0, 0.034), 0 5px 4px rgba(0, 0, 0, 0.048), 0 8.5px 3px rgba(0, 0, 0, 0.06), 0 2.3px 7.9px rgba(0, 0, 0, 0.072);
+          box-shadow: 0 2px 1.5px rgba(0, 0, 0, 0.034), 0 5px 4px rgba(0, 0, 0, 0.048), 0 8.5px 3px rgba(0, 0, 0, 0.06), 0 2.3px 7.9px rgba(0, 0, 0, 0.072);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#cardTable .custom-card .text-lead {
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#cardTable .custom-card .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+#cardTable .custom-card .row .col-1 {
+  width: 15%;
+}
+
+#cardTable .custom-card .row .col-2 {
+  width: 32%;
+}
+
+#cardTable .custom-card .row .col-3 {
+  width: 20%;
+}
+
+#cardTable .custom-card .row .col-4 {
+  width: 20%;
+}
+
+#cardTable .custom-card .row .col-5 {
+  width: 10%;
+}
+
+#cardTable .custom-card .row .header {
+  color: #999;
+}
+
+#cardTable .custom-card .row .col-2 .subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .services {
@@ -632,6 +731,151 @@ table td .link a {
 #text {
   text-align: center;
   font-size: 1.12em;
+}
+
+.customRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.customRow .col-4 {
+  width: 34%;
+}
+
+.customRow .col-4 .capitalize {
+  text-transform: uppercase;
+  font-size: 0.76em;
+  color: #999;
+  letter-spacing: 0.07rem;
+}
+
+.customRow .col-4 .fs-md {
+  font-size: 0.91em;
+  -webkit-transform: translateY(-0.9rem);
+          transform: translateY(-0.9rem);
+}
+
+.customCard {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: #fff;
+}
+
+.customCard .img {
+  width: 100%;
+  height: 15rem;
+}
+
+.customCard .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.divider {
+  width: 100%;
+  height: 0.07rem;
+  background: #dadada;
+}
+
+.divider-px-3 {
+  width: 91%;
+  height: 0.07rem;
+  background: #dadada;
+  margin: 0rem auto;
+}
+
+.priceCard {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.priceCard2 {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  border-radius: 0.3rem;
+}
+
+.priceCard3 {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.userCard {
+  -webkit-box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+}
+
+.userCard i {
+  padding: 0.1rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.userCard i:hover {
+  background-color: #dadada;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.img-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.img-contact .img {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+
+.img-contact .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.img-contact .contact .title {
+  font-weight: bold;
+  font-size: 0.91em;
+  text-transform: capitalize;
+}
+
+.img-contact .contact .title span {
+  text-transform: lowercase;
+  display: block;
+  font-weight: normal;
+  color: #999;
+}
+
+.priceCard {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.priceCard2 {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  border-radius: 0.3rem;
+}
+
+.priceCard3 {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .blackBg {
@@ -3581,6 +3825,67 @@ table td .link a {
   .footerBg footer .ft {
     text-align: center;
     padding-top: 1.4rem;
+  }
+  #cardTable {
+    background: #f9f9f9;
+    height: 100%;
+    font-size: 0.88em;
+  }
+  #cardTable .custom-container {
+    width: 92%;
+    margin: 0.1rem auto 0rem auto;
+    padding: 1.2rem 0.9rem;
+  }
+  #cardTable .custom-container .row .col-1 {
+    width: 33%;
+  }
+  #cardTable .custom-container .row .col-2 {
+    display: none;
+  }
+  #cardTable .custom-container .row .col-3 {
+    display: none;
+  }
+  #cardTable .custom-container .row .col-4 {
+    width: 40%;
+  }
+  #cardTable .custom-container .row .col-5 {
+    width: 28%;
+    text-align: center;
+  }
+  #cardTable .custom-card {
+    width: 92%;
+    margin: 0.1rem auto 0rem auto;
+    -webkit-box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+            box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+    padding: 1rem 0.9rem;
+  }
+  #cardTable .custom-card:hover {
+    background: #f9f9f9;
+    -webkit-box-shadow: 0 2px 1.5px rgba(0, 0, 0, 0.034), 0 5px 4px rgba(0, 0, 0, 0.048), 0 8.5px 3px rgba(0, 0, 0, 0.06), 0 2.3px 7.9px rgba(0, 0, 0, 0.072);
+            box-shadow: 0 2px 1.5px rgba(0, 0, 0, 0.034), 0 5px 4px rgba(0, 0, 0, 0.048), 0 8.5px 3px rgba(0, 0, 0, 0.06), 0 2.3px 7.9px rgba(0, 0, 0, 0.072);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  #cardTable .custom-card .text-lead {
+    padding-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  #cardTable .custom-card .row .col-1 {
+    width: 33%;
+  }
+  #cardTable .custom-card .row .col-2 {
+    display: none;
+  }
+  #cardTable .custom-card .row .col-3 {
+    display: none;
+  }
+  #cardTable .custom-card .row .col-4 {
+    width: 40%;
+  }
+  #cardTable .custom-card .row .col-5 {
+    width: 28%;
+    text-align: center;
   }
 }
 
